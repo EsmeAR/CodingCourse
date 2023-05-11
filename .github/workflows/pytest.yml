@@ -1,0 +1,12 @@
+name: pytest
+on: push
+
+jobs:
+  code-:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install pytest
+        run: pip install pytest
+      - name: Run pytest
+        run: pytest

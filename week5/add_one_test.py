@@ -5,5 +5,5 @@ def add_one(value):
 
 def test_add_one():
     output = add_one(5)
-    assert output == 6
+    assert output == 7
     assert type(output) == int
